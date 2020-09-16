@@ -1,0 +1,35 @@
+*, *::before, *::after  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font: 400 1rem/1 'PT Sans', sans-serif;   
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+input, textarea {
+  border: none;
+  outline: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}

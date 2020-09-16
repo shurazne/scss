@@ -1,0 +1,57 @@
+$white:   #FFF;
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+$crimson: #17f2d8;
+
+$container-width: 1200px;
+
+$mt-1:     1rem;
+$mt-2:     2rem;
+$mb-1:     1rem;
+$ml-1:     1rem;
+$mr-1:     1rem;
+$mx-auto:  auto;
+$my-auto:  auto;
+
+$m-top1: (
+    "mt-1":    $mt-1,  
+);
+
+$m-top2: (
+    "mt-2":    $mt-2, 
+);
+
+$m-bottom1: (
+    "mb-1":    $mb-1, 
+);
+
+$m-right1: (
+    "mr-1":    $mr-1, 
+);
+
+$m-left1: (
+    "ml-1":    $ml-1, 
+);
+
+$mx: (
+    "mx-auto" : $mx-auto,
+  
+);
+
+$my: (
+    "my-auto" : $my-auto,
+);
+
+
+
+
+
+    

@@ -1,0 +1,106 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-size: 14px; }
+
+body {
+  font: 400 1rem/1 'PT Sans', sans-serif; }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit; }
+
+input, textarea {
+  border: none;
+  outline: none; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none; }
+
+.mt-1 {
+  margin-top: 1rem; }
+
+.mt-2 {
+  margin-top: 2rem; }
+
+.mb-1 {
+  margin-bottom: 1rem; }
+
+.ml-1 {
+  margin-left: 1rem; }
+
+.mr-1 {
+  margin-right: 1rem; }
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto; }
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.header {
+  background-color: aqua;
+  padding: 20px 0;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); }
+  .header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .header .logo {
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .header-btn {
+    margin-left: 15px;
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #d8e2e2;
+    border: 1px solid #40115c; }
+    .header-btn:hover {
+      color: #fff;
+      background: #710fe2;
+      border: 1px solid #fff; }
+    .header-btn:active {
+      background: #ea2719;
+      border: 1px solid #631be2; }
+  .header-nav {
+    font-size: 14px;
+    color: #000; }
+    .header-nav a + a {
+      margin-left: 15px; }
+    .header-nav a:hover {
+      color: sandybrown; }

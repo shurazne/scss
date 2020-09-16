@@ -1,0 +1,78 @@
+@mixin flex (
+    $ali: Center,
+    $jc: space-between,
+    $fw: wrap,
+) {
+    display: flex;
+    align-items: $ali;
+    justify-content: $jc;
+    flex-wrap: wrap;
+}
+
+@mixin my-background {
+    background: #d8e2e2;     
+}
+
+@mixin my-border {
+    border: 1px solid #40115c;     
+}
+
+@mixin hover-background {
+    background: #710fe2;     
+}
+
+@mixin hover-border {
+    border: 1px solid #fff;     
+}
+
+@mixin active-background {
+    background: #ea2719;     
+}
+
+@mixin active-border {
+    border: 1px solid #631be2;     
+}
+
+@mixin indent($selector, $color) {
+    #{$selector} {
+        margin-top: $color;
+    }
+}
+
+@mixin indent-b($selector, $color) {
+    #{$selector} {
+        margin-bottom: $color;
+    }
+}
+
+@mixin indent-l($selector, $color) {
+    #{$selector} {
+        margin-left:  $color;
+    }
+}
+
+@mixin indent-r($selector, $color) {
+    #{$selector} {
+        margin-right:  $color;
+    }
+}
+
+
+
+
+
+
+@mixin margin-mx($selector, $auto) {
+    #{$selector} {
+        margin-right: $auto;
+        margin-left: $auto;
+    }
+}
+
+@mixin margin-my($selector, $auto) {
+    #{$selector} {
+        margin-top: $auto;
+        margin-bottom: $auto;
+    }
+}
+

@@ -1,0 +1,58 @@
+.header {
+  background-color: aqua;
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  
+  
+    .container {
+        @include flex(center, space-between);
+
+       
+    }
+  
+    .logo {
+      color: $white;
+      display: flex;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+  
+    }
+
+    &-btn{
+      margin-left: 15px;
+      font-size: 25px;
+      padding: 10px 25px;
+      border-radius: 10px;
+      cursor: pointer;
+      text-transform: uppercase;
+      @include my-background ;
+      @include my-border ;
+
+        &:hover{
+          color: #fff;
+          @include hover-background;
+          @include hover-border;
+        }
+
+        &:active {
+          @include active-background;
+          @include active-border ;
+        }
+    }
+  
+    &-nav {
+      font-size: 14px;
+      color: #000;
+        a {
+          &+a {
+            margin-left: 15px;
+          }
+  
+          &:hover{
+            color: sandybrown;
+          }
+        }
+    }
+  
+  }

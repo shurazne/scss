@@ -1,0 +1,27 @@
+@each $color, $value in $m-top1 {
+    @include indent(".#{$color}", $value);
+}
+
+@each $color, $value in $m-top2 {
+    @include indent(".#{$color}", $value);
+}
+
+@each $color, $value in $m-bottom1 {
+    @include indent-b(".#{$color}", $value);
+}
+
+@each $color, $value in $m-left1{
+    @include indent-l(".#{$color}", $value);
+}
+
+@each $color, $value in $m-right1{
+    @include indent-r(".#{$color}", $value);
+}
+
+@each $auto, $value in $mx {
+   @include margin-mx(".mx-#{auto}", $value); 
+}
+
+@each $auto, $value in $my {
+    @include margin-my(".my-#{auto}", $value); 
+ }
