@@ -26,18 +26,16 @@
       border-radius: 10px;
       cursor: pointer;
       text-transform: uppercase;
-      @include my-background ;
-      @include my-border ;
-
+      @include button() ;
+  
         &:hover{
           color: #fff;
-          @include hover-background;
-          @include hover-border;
+          @include button-hover;
         }
 
         &:active {
-          @include active-background;
-          @include active-border ;
+          @include button-activ;
+        
         }
     }
   

@@ -15,30 +15,41 @@ $container-width: 1200px;
 
 $mt-1:     1rem;
 $mt-2:     2rem;
+$mt-3:     3rem;
 $mb-1:     1rem;
+$mb-2:     2rem;
+$mb-3:     3rem;
 $ml-1:     1rem;
+$ml-2:     2rem;
+$ml-3:     3rem;
 $mr-1:     1rem;
+$mr-2:     2rem;
+$mr-3:     3rem;
 $mx-auto:  auto;
 $my-auto:  auto;
 
-$m-top1: (
+$m-top: (
     "mt-1":    $mt-1,  
-);
-
-$m-top2: (
     "mt-2":    $mt-2, 
+    "mt-3":    $mt-3,
 );
 
-$m-bottom1: (
+$m-bottom: (
     "mb-1":    $mb-1, 
+    "mb-2":    $mb-2, 
+    "mb-3":    $mb-3, 
 );
 
-$m-right1: (
+$m-right: (
     "mr-1":    $mr-1, 
+    "mr-2":    $mr-2, 
+    "mr-3":    $mr-3, 
 );
 
-$m-left1: (
-    "ml-1":    $ml-1, 
+$m-left: (
+    "ml-1":    $ml-1,
+    "ml-2":    $ml-2,
+    "ml-3":    $ml-3, 
 );
 
 $mx: (

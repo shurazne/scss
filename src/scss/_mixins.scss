@@ -9,29 +9,32 @@
     flex-wrap: wrap;
 }
 
-@mixin my-background {
-    background: #d8e2e2;     
+@mixin button(
+    $bg: #d8e2e2 ,
+    $b-er: 2px solid #d8e2e2,
+) {
+    background: $bg;
+    border: $b-er;    
 }
 
-@mixin my-border {
-    border: 1px solid #40115c;     
+@mixin button-hover(
+    $hov-bg:#710fe2,
+    $hov-b-er:2px solid #710fe2,
+) {
+    // color: #fff;
+    background: $hov-bg;
+    border: $hov-b-er;
 }
 
-@mixin hover-background {
-    background: #710fe2;     
-}
+@mixin button-activ(
+    $act-bg:#ea2719,
+    $act-b-er:2px solid #ea2719,
+ ) {
+    background: $act-bg; 
+    border: $act-b-er;
+ }
 
-@mixin hover-border {
-    border: 1px solid #fff;     
-}
 
-@mixin active-background {
-    background: #ea2719;     
-}
-
-@mixin active-border {
-    border: 1px solid #631be2;     
-}
 
 @mixin indent($selector, $color) {
     #{$selector} {
@@ -75,4 +78,3 @@
         margin-bottom: $auto;
     }
 }
-

@@ -1,20 +1,16 @@
-@each $color, $value in $m-top1 {
+@each $color, $value in $m-top {
     @include indent(".#{$color}", $value);
 }
 
-@each $color, $value in $m-top2 {
-    @include indent(".#{$color}", $value);
-}
-
-@each $color, $value in $m-bottom1 {
+@each $color, $value in $m-bottom {
     @include indent-b(".#{$color}", $value);
 }
 
-@each $color, $value in $m-left1{
+@each $color, $value in $m-left{
     @include indent-l(".#{$color}", $value);
 }
 
-@each $color, $value in $m-right1{
+@each $color, $value in $m-right{
     @include indent-r(".#{$color}", $value);
 }
 
